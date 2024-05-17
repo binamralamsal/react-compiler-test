@@ -1,0 +1,15 @@
+.title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.todoItem {
+  display: grid;
+  grid-template-columns: 3fr 0.5fr 0.5fr;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.todoItem.completed {
+  text-decoration: line-through;
+}
